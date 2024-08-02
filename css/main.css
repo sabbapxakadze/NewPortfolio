@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  body, html {
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  
+:root{
+    --main-color: #024295;;
+    --secondary-color : #ffffff;
+    --third-color : black;
+    --fourth-color : rgb(0, 255, 0);
+    --particles-primary-color :rgba(0, 0, 0, 0.955);
+    --particles-secondary-color : rgba(0, 0, 0, 0.344);
+
+    --skills-1: rgba(253, 253, 253, 0.629);
+    --skills-2: rgba(5, 0, 153, 0.589);
+}
+
+
+
+
+
+/* Particles CSS */
+#particles-js1, #particles-js2, #particles-js3, #particles-js4, #particles-js5, #particles-js6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#particles-js1, #particles-js3, #particles-js5 {
+  background-color: var(--particles-primary-color);
+}
+
+#particles-js2, #particles-js4, #particles-js6 {
+  background-color: var(--particles-secondary-color);
+}
+

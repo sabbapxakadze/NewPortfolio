@@ -33,7 +33,7 @@
     grid-row: auto;
     justify-content: center;
     align-items: center;
-    background-color: rgba(172, 172, 172, 0.355);
+    background-color: rgba(172, 172, 172, 0.354);
     color: var(--secondary-color);
     border-radius: 28px;
     padding: 20px;

@@ -47,7 +47,7 @@
   }
 }
 
-/* Keyframes for blinking caret */
+/* Keyframe for blinking caret */
 @keyframes blinkCaret {
   from, to {
       border-color: transparent;

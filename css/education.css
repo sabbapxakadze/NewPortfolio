@@ -71,7 +71,7 @@
     cursor: pointer;
     box-shadow: 0 4px 15px var(--main-color) ;
     margin-top: 20px;
-    transition : transform 0.3s ease;
+    transition : transform 0.31s ease;
 }
 .learn-more-btn:hover{
     background-color: var(--secondary-color);

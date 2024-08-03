@@ -106,7 +106,7 @@
 }
 
 .carousel-control.next::before {
-    content: '►'; /* Right arrow */
+    content: '►'; /* Right  arrow */
 }
 
 /* Carousel Indicators */

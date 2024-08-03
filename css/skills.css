@@ -21,6 +21,8 @@
     justify-content: center;
     margin: 20px 0;
     position: relative;
+    text-align: center;
+    align-items: center;
 }
 
 .filtering-buttons a {
@@ -62,8 +64,8 @@
 .skill-item {
     text-align: center;
     padding: 20px;
-    background-color: var(--skills-1);
-    color: var(--skills-2);
+    background-color: var(--secondary-color);
+    color: var(--main-color);
     border-radius: 10px;
     box-shadow: var(--card-shadow);
     transition: background-color 0.3s, transform 0.3s;
@@ -80,8 +82,8 @@
 }
 
 .skill-item:hover {
-    background-color: var(--skills-2);
-    color: var(--skills-1);
+    background-color: var(--main-color);
+    color: var(--secondary-color);
     transform: scale(1.05);
 }
 

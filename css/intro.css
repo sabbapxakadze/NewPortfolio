@@ -91,16 +91,16 @@
 
 @media (max-width: 768px) {
   .Intro {
-    font-size: 16px;
+    font-size: 2rem;
   }
   .contact-btn {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 
   .Intro h1 {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
   }
   .Intro h3 {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 1rem; /* Adjust font size for smaller screens */
   }
 }

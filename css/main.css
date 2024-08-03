@@ -17,10 +17,10 @@
     --third-color : black;
     --fourth-color : rgb(0, 255, 0);
     --particles-primary-color :rgba(0, 0, 0, 0.955);
-    --particles-secondary-color : rgba(0, 0, 0, 0.344);
+    --particles-secondary-color : rgba(177, 177, 177, 0);
 
-    --skills-1: rgba(253, 253, 253, 0.629);
-    --skills-2: rgba(5, 0, 153, 0.589);
+    --skills-1: rgba(253, 253, 253, 0.754);
+    --skills-2: rgba(5, 0, 153, 0.753);
 }
 
 

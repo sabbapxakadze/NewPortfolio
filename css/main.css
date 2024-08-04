@@ -23,6 +23,56 @@
     --skills-2: rgba(5, 0, 153, 0.753);
 }
 
+/* Language-specific styles */
+.lang-en, .lang-ge {
+  display: none;
+}
+
+.active-lang {
+  display: inline;
+}
+
+/* Language switcher container */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* Style for language switcher links */
+.language-switcher a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 16px;
+  margin: 0 10px; 
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  display: flex; 
+  align-items: center; 
+}
+
+/* Active language link style */
+.language-switcher a.active-lang {
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Style for images inside language switcher links */
+.language-switcher img {
+  width: 24px; 
+  height: 18px;
+  vertical-align: middle; 
+}
+
+/* Hover effect for language switcher links */
+.language-switcher a:hover {
+  background-color: rgba(var(--main-color-rgb), 0.1); 
+  color: var(--main-color); 
+}
+
 
 
 

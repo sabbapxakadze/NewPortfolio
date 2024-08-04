@@ -74,6 +74,7 @@
       border-radius: 20px;
       padding: 15px 30px;
       font-size: 20px;
+      text-align: center;
       color: var(--secondary-color);
       cursor: pointer;
       font-weight: bold;
@@ -85,16 +86,20 @@
 .contact-btn:hover {
       transform: scale(1.1);
       background-color: var(--secondary-color);
-      color: black;
-      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+      color: var(--third-color);
+      box-shadow: rgba(0, 0, 0, 0.8) 0px 22px 70px 4px;
 }
 
 @media (max-width: 768px) {
-  .Intro {
+  .Intro lang-en {
     font-size: 2rem;
   }
-  .contact-btn {
+  .contact-btn lang-en {
     font-size: 1.5rem;
+  }
+
+  .Intro .lang-ge {
+    font-size: 1rem;
   }
 
   .Intro h1 {

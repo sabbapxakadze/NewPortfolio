@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/contact.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    
 
     <link rel="icon" href="pics/icon.png" type="image/x-icon">
 
@@ -39,6 +39,13 @@
                 <img src="pics/bmw.png" class="logo">
             </a>
         </div>
+
+        <div class="language-switcher">
+            <a href="#" id="en-lang" class="active-lang"><img src="pics/eng.png"></a> 
+            <a href="#" id="ge-lang"><img src="pics/geo.png"></a>
+        </div>
+
+        
         <!--- (hidden by default) -->
         <div class="burger-menu" id="burger-menu">
         <div class="burger-icon"></div>
@@ -46,20 +53,40 @@
         <div class="burger-icon"></div>
         </div>
 
+
         <div class="nav-btns">
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+            <!-- English Links -->
+            <a class="lang-en" href="#about">About</a>
+            <a class="lang-en" href="#education">Education</a>
+            <a class="lang-en" href="#projects">Projects</a>
+            <a class="lang-en" href="#skills">Skills</a>
+            <a class="lang-en" href="#contact">Contact</a>
+
+            <!-- Georgian Links -->
+            <a class="lang-ge" href="#about">შესახებ</a>
+            <a class="lang-ge" href="#education">განათლება</a>
+            <a class="lang-ge" href="#projects">პროექტები</a>
+            <a class="lang-ge" href="#skills">უნარ-ჩვევები</a>
+            <a class="lang-ge" href="#contact">კონტაქტი</a>
         </div>
+
+        
+
         <!-- (hidden by default) -->
         <div class="mobile-menu" id="mobile-menu">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+            <!-- English Links -->
+            <a class="lang-en" href="#about">About</a>
+            <a class="lang-en" href="#education">Education</a>
+            <a class="lang-en" href="#projects">Projects</a>
+            <a class="lang-en" href="#skills">Skills</a>
+            <a class="lang-en" href="#contact">Contact</a>
+
+            <!-- Georgian Links -->
+            <a class="lang-ge" href="#about">ჩემს შესახებ</a>
+            <a class="lang-ge" href="#education">განათლება</a>
+            <a class="lang-ge" href="#projects">პროექტები</a>
+            <a class="lang-ge" href="#skills">უნარ-ჩვევები</a>
+            <a class="lang-ge" href="#contact">კონტაქტი</a>
         </div>
 
         </div>
@@ -74,12 +101,20 @@
         </div>
 
         <div class="Intro">
-            <h1>Hello, I am Saba Pkhakadze.</h1>
-            <h3>A passionate Computer Science Student.</h3>
+            <h1 class="lang-en">Hello, I am Saba Pkhakadze.</h1>
+            <h1 class="lang-ge">გამარჯობა, მე ვარ საბა ფხაკაძე.</h1>
+            <h3 class="lang-en">A passionate Computer Science Student.</h3>
+            <h3 class="lang-ge">კომპიუტერული მეცნიერების სტუდენტი.</h3>
 
-            <a href="#contact">
-                <button class="contact-btn" id>CONNECT WITH ME</button>
-            </a>
+            <!-- English Button -->
+                <a class="lang-en" href="#contact">
+                    <button class="contact-btn">CONNECT WITH ME</button>
+                </a>
+                
+            <!-- Georgian Button -->
+                <a class="lang-ge" href="#contact">
+                    <button class="contact-btn">დამიკავშირდი!</button>
+                </a>
         </div>
 
     </div>
@@ -92,14 +127,18 @@
             <canvas class="particles-js-canvas-el" width="541" height="912" style="width: 100%; height: 100%;"></canvas>
         </div>
 
-        <header class="about-header">About me</header>
+        <header class="lang-en about-header">About me</header>
+        <header class="lang-ge about-header">ჩემს შესახებ</header>
 
         <div class="about-content">
             
-            <p class="about-p">My name is Saba Pkhakadze, and I am a computer science student at Kutaisi International University. I have successfully completed the first year of my studies and acquired a range of programming skills. In addition to my university coursework, I have developed proficiency in programming languages such as C#, HTML, CSS, and JavaScript. I have also gained some experience with React and am currently learning ASP.NET with C# to explore its full potential.
-
+            <p class="lang-en about-p">My name is Saba Pkhakadze, and I am a computer science student at Kutaisi International University. I have successfully completed the first year of my studies and acquired a range of programming skills. In addition to my university coursework, I have developed proficiency in programming languages such as C#, HTML, CSS, and JavaScript. I have also gained some experience with React and am currently learning ASP.NET with C# to explore its full potential.
                 Beyond my academic pursuits, I am committed to maintaining a healthy lifestyle, which reflects my dedication and hard work. The 100% scholarship I received highlights my strong work ethic and determination. I am always striving for excellence and aiming to achieve success in all my endeavors.
             </p>
+
+            <p class="lang-ge about-p">გამარჯობა, მე ვარ საბა ფხაკაძე და მე ვარ ქუთაისის საერთაშორისო უნივერსიტეტის კომპიუტერული მეცნიერების სტუდენტი. მე წარმატებით გავიარე სასწავლო პირველი წელი და ავითვისე ბევრი პროგრამული უნარ-ჩვევები. გარდა ჩემი საუნივერსიტეტო საქმიანობისა, მე ჩამოვიყალიბე მყარი ცოდნა ისეთ პროგრამულ ენებში, როგორებიცაა:  C#, HTML, CSS, Java და JavaScript. აგრეთვე, მე დავიგროვე გამოცდილება React-ში და ამჟამად ვსწავლობ ASP.NET-ს C#-ში, რათა აღმოვაჩინო მისი სრული შესაძლებლობები.
+                გარდა ჩემი აკადემიური მოსწრებისა, ვცხოვრობ ჯანსაღი ცხოვრების წესით და ეს ყველაფერი ასახავს ჩემს მონდომებასა და შრომას. 100%-იანი გრანტი, რომელიც მოვიპოვე ეროვნულ გამოცდებში, ხაზს უსვამს ჩემს ძლიერ სამუშაო ეთიკასა და მონდომებას. მე ყოველთვის ვცდილობ რომ მივაღწიო მაქსიმუმს და მუდამ ვისწრაფი სრულყოფილებისაკენ.</p>
+
         </div>
 
     </div>
@@ -109,18 +148,26 @@
     <div class="education-section" id="education">
         <div id="particles-js3"></div>
 
-        <h2 class="education-header">Education</h2>
+        <h2 class="lang-en education-header">Education</h2>
+        <h2 class="lang-ge education-header">განათლება</h2>
 
         <div class="education-content">
 
           <div class="education-description">
-            <p class="p1">Kutaisi International University</p>
-            <p class="p2">Bachelor in Computer Science</p>
-            <p class="p3">2023-Present</p>
+            <p class="lang-en p1">Kutaisi International University</p>
+            <p class="lang-en p2">Bachelor in Computer Science</p>
+            <p class="lang-en p3">2023-Present</p>
+
+            <p class="lang-ge p1">ქუთაისის საერთაშორისო უნივერსიტეტი</p>
+            <p class="lang-ge p2">ბაკალავრი კომპიუტერულ მეცნიერებაში</p>
+            <p class="lang-ge p3">2023-დღემდე</p>
           </div>
 
           <img class="kiu-logo" src="pics/kiu.png">
-          <a href="https://kiu.edu.ge" target="_blank"><button class="learn-more-btn">Learn More</button></a>
+          <a href="https://kiu.edu.ge" target="_blank">
+            <button class="lang-en learn-more-btn">Learn More</button>
+            <button class="lang-ge learn-more-btn">გაიგე მეტი</button>
+        </a>
         </div>
       </div>
 
@@ -130,57 +177,90 @@
     <div class="projects-section" id="projects">
         <div id="particles-js4"></div>
 
-          <h2 class="projects-header">My Projects</h2>
+          <h2 class="lang-en projects-header">My Projects</h2>
+          <h2 class="lang-ge projects-header">ჩემი პროექტები</h2>
 
           <div class="carousel">
             <div class="carousel-inner">
     
                 <div class="carousel-item active">
-                    <h2>To-Do List</h2>
-                    <p>A full-stack application with user authentication and CRUD functionality.</p>
-                    <p class="technologies-text">Technologies: C#, ASP.NET MVC, SQL Server, HTML, CSS</p>
+                    <h2 class="lang-en">To-Do List</h2>
+                    <p class="lang-en">A full-stack application with user authentication and CRUD functionality.</p>
+                    <p class="lang-en technologies-text">Technologies: C#, ASP.NET MVC, SQL Server, HTML, CSS</p>
+
+                    <h2 class="lang-ge">გეგმარი</h2>
+                    <p class="lang-ge">Full-Stack აპლიკაცია User authentication-თა და CRUD ფუნქციონალით</p>
+                    <p class="lang-ge technologies-text">ტექნოლოგიები: C#, ASP.NET MVC, SQL Server, HTML, CSS</p>
                 </div>
     
                 <div class="carousel-item ">
-                  <h2>Blogs App</h2>
-                  <p>A blog application with CRUD operations and user authentication.Users can post and see each others blogs.</p>
-                  <p class="technologies-text"> Technologies: ASP.NET Core, C#, SQL Server, HTML, CSS</p>
+                  <h2 class="lang-en">Blogs App</h2>
+                  <p class="lang-en">A blog application with CRUD operations and user authentication. Users can post and see each others blogs.</p>
+                  <p class="lang-en technologies-text"> Technologies: ASP.NET Core, C#, SQL Server, HTML, CSS</p>
+
+                  <h2 class="lang-ge">ბლოგების აპი</h2>
+                  <p class="lang-ge">Full-Stack აპლიკაცია სადაც იუზერები პოსტავენ და აფასებენ პოსტებს.</p>
+                  <p class="lang-ge technologies-text">ტექნოლოგიები: ASP.NET Core, C#, SQL Server, HTML, CSS</p>
               </div>
     
               <div class="carousel-item ">
-                <h2>Calculator</h2>
-                <p>A simple calculator that performs basic arithmetic operations.</p>
-                <p class="technologies-text">Technologies: HTML, CSS, JavaScript</p>
+                <h2 class="lang-en">Calculator</h2>
+                <p class="lang-en">A simple calculator that performs basic arithmetic operations.</p>
+                <p class="lang-en technologies-text">Technologies: HTML, CSS, JavaScript</p>
+
+                <h2 class="lang-ge">კალკულატორი</h2>
+                <p class="lang-ge">უბრალო კალკულატორი, რომელიც არითმეტიკულ ოპერაციებს ასრულებს</p>
+                <p class="lang-ge technologies-text">ტექნოლოგიები: HTML, CSS, JavaScript</p>
             </div>
     
               <div class="carousel-item ">
-                <h2>Weather Forecast</h2>
-                <p>Fetches real-time weather data from the OpenWeather API with cool styling.</p>
-                <p class="technologies-text">Technologies: HTML, CSS, JavaScript</p>
+                <h2 class="lang-en">Weather Forecast</h2>
+                <p class="lang-en">Fetches real-time weather data from the OpenWeather API with cool styling.</p>
+                <p class="lang-en technologies-text">Technologies: HTML, CSS, JavaScript.</p>
+
+                <h2 class="lang-ge">ამინდის პროგნოზი</h2>
+                <p class="lang-ge">რეალური ამინდის აპი რომელსაც ინფო მოაქვს OpenWeather API-დან.</p>
+                <p class="lang-ge technologies-text">ტექნოლოგიები: HTML, CSS, JavaScript.</p>
             </div>
     
             <div class="carousel-item ">
-              <h2>SpendSmart</h2>
-              <p>A personal finance tracking app with budget management and CRUD operations.</p>
-              <p class="technologies-text">Technologies: ASP.NET Core, SQL Server</p>
+              <h2 class="lang-en">SpendSmart</h2>
+              <p class="lang-en">A personal finance tracking app with budget management and CRUD operations.</p>
+              <p class="lang-en technologies-text">Technologies: ASP.NET Core, SQL Server</p>
+
+              <h2 class="lang-ge">ხარჯე სწორად</h2>
+              <p class="lang-ge">პერსონალური ფინანსების სამართავი აპი საფინანსო მენეჯმენტითა და CRUD ოპერაციებით.</p>
+              <p class="lang-ge technologies-text">ტექნოლოგიები: ASP.NET Core, SQL Server.</p>
           </div>
     
           <div class="carousel-item ">
-            <h2>Rock Paper Scissors</h2>
-            <p>A game where you play against the computer. It saves scores and features a cool design.</p>
-            <p class="technologies-text">Technologies: HTML, CSS, JavaScript</p>
+            <h2 class="lang-en">Rock Paper Scissors</h2>
+            <p class="lang-en">A game where you play against the computer. It saves scores and features a cool design.</p>
+            <p class="lang-en technologies-text">Technologies: HTML, CSS, JavaScript</p>
+
+            <h2 class="lang-ge">ჯეირანი</h2>
+            <p class="lang-ge">ჯეირანი კომპიუტერის წინააღმდეგ. ინახავს ქულებს და აქვს კარგი დიზაინი.</p>
+            <p class="lang-ge technologies-text">ტექნოლოგიები: HTML, CSS, JavaScript</p>
         </div>
     
         <div class="carousel-item ">
-          <h2>Tic-Tac-Toe</h2>
-          <p>The classic game with a modern and stylish design.</p>
-          <p class = "technologies-text">Technologies: Java, GUI</p>
+          <h2 class="lang-en">Tic-Tac-Toe</h2>
+          <p class="lang-en">The classic game with a modern and stylish design.</p>
+          <p class="lang-en technologies-text">Technologies: Java, GUI</p>
+
+          <h2 class="lang-ge">იქსიკი-ნოლიკი</h2>
+          <p class="lang-ge">კლასიკური იქსი და ნოლის თამაში კარგი დიზაინით.</p>
+          <p class="lang-ge technologies-text">ტექნოლოგიები: Java, GUI</p>
       </div>
     
       <div class="carousel-item ">
-        <h2>Spotijy</h2>
-        <p>Developed in Java using OOP principles, this project includes classes to build and manage music libraries.</p>
-        <p class="technologies-text">Technologies: Java, OOP</p>
+        <h2 class="lang-en">SpotiJy</h2>
+        <p class="lang-en">Developed in Java using OOP principles, this project includes classes to build and manage music libraries.</p>
+        <p class="lang-en technologies-text">Technologies: Java, OOP</p>
+
+        <h2 class="lang-ge">სპოტიჯეი</h2>
+        <p class="lang-ge">OOP პრინციპებზე დამყარებული ჯავას აპი. Spotify-ს მსგავსი აპი, სადაც დააორგანიზებ მუსიკებს.</p>
+        <p class="lang-ge technologies-text">ტექნოლოგიები: Java, OOP</p>
       </div>
     
             </div>
@@ -208,14 +288,26 @@
       <div class="skills-section" id="skills">
         <div id="particles-js5"></div>
 
-        <header class="skills-header">Skills & Technologies</header>
+        <header class="lang-en skills-header">Skills & Technologies</header>
+        <header class="lang-ge skills-header">უნარები & ტექნოლოგიები</header>
 
-        <div class="filtering-buttons">
+
+
+        <div class="lang-en filtering-buttons">
             <a data-filter="all" class="active" onclick="filter('all')">All</a>
             <a data-filter="backend" onclick="filter('backend')">Back-End</a>
             <a data-filter="frontend" onclick="filter('frontend')">Front-End</a>
             <a data-filter="other" onclick="filter('other')">Others</a>
         </div>
+
+        <div class="lang-ge filtering-buttons">
+            <a data-filter="all" class="active" onclick="filter('all')">ყველა</a>
+            <a data-filter="backend" onclick="filter('backend')">Back-End</a>
+            <a data-filter="frontend" onclick="filter('frontend')">Front-End</a>
+            <a data-filter="other" onclick="filter('other')">სხვა</a>
+        </div>
+
+
 
         <div class="skills-contentGrid">
             <div class="skill-item" data-category="frontend">
@@ -230,12 +322,14 @@
         
             <div class="skill-item" data-category="frontend">
                 <i class="fab fa-js-square"></i>
-                <h3>JavaScript</h3>
+                <h3 class="lang-en">JavaScript</h3>
+                <h3 class="lang-ge">ჯავასკრიპტი</h3>
             </div>
         
             <div class="skill-item" data-category="frontend">
                 <i class="fab fa-react"></i>
-                <h3>React</h3>
+                <h3 class="lang-en">React</h3>
+                <h3 class="lang-ge">რეაქთი</h3>
             </div>
 
             
@@ -257,7 +351,8 @@
 
             <div class="skill-item" data-category="other">
                 <i class="fas fa-brain"></i>
-                <h3>Algorithms & Data-Structures</h3>
+                <h3 class="lang-en">Algorithms & Data-Structures</h3>
+                <h3 class="lang-ge">ალგორითმები & დატა-სტრუქტურები</h3>
             </div>
 
             <div class="skill-item" data-category="other">
@@ -267,17 +362,20 @@
 
             <div class="skill-item" data-category="other">
                 <i class="fas fa-lightbulb"></i>
-                <h3>Problem-Solving</h3>
+                <h3 class="lang-en">Problem-Solving</h3>
+                <h3 class="lang-ge">კრიტიკული აზროვნება</h3>
             </div>
 
             <div class="skill-item" data-category="other">
                 <i class="fas fa-globe"></i>
-                <h3>English B2</h3>
+                <h3 class="lang-en">English B2</h3>
+                <h3 class="lang-ge">ინგლისური B2</h3>
             </div>
 
             <div class="skill-item" data-category="other">
                 <i class="fas fa-code"></i>
-                <h3>Functional Programming</h3>
+                <h3 class="lang-en">Functional Programming</h3>
+                <h3 class="lang-ge">ფუნქციონალური პროგრამირება</h3>
             </div>
 
         </div>
@@ -290,7 +388,8 @@
     <div class="contact-section" id="contact">
         <div id="particles-js6"></div>
     
-        <header class="contact-header">Let's Get in Touch</header>
+        <header class="lang-en contact-header">Let's Get in Touch</header>
+        <header class="lang-ge contact-header">დამიკავშირდი</header>
     
         <div class="contact-content">
 
@@ -306,7 +405,8 @@
 
             <div class="contact-item">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>Kutaisi, Georgia, 4602</p>
+                <p class="lang-en">Kutaisi, Georgia, 4602</p>
+                <p class="lang-ge">ქუთაისი, საქართველო, 4602</p>
             </div>
 
 
@@ -314,7 +414,8 @@
 
         <footer class="footer">
             <div class="footer-left">
-                <p>&copy;Saba Pkhakadze-2024. Made with 💓.</p>
+                <p class="lang-en">&copy;Saba Pkhakadze-2024. Made with 💓.</p>
+                <p class="lang-ge">&copy;საბა ფხაკაძე-2024. გაკეთებულია 💓-ით.</p>
             </div>
             <div class="footer-right">
                 <a href="https://www.linkedin.com/in/saba-pkhakadze/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -325,7 +426,7 @@
 
     </div>
 
-
+    
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="main.js"></script>
   

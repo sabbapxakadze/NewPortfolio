@@ -323,3 +323,31 @@ function filter(category) {
 window.onload = function() {
   filter('all');
 }
+
+
+// Change language
+
+document.getElementById('en-lang').addEventListener('click', function () {
+  setLanguage('en');
+});
+
+document.getElementById('ge-lang').addEventListener('click', function () {
+  setLanguage('ge');
+});
+
+function setLanguage(lang) {
+  document.querySelectorAll('.lang-en').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
+  document.querySelectorAll('.lang-ge').forEach(el => el.style.display = lang === 'ge' ? 'block' : 'none');
+  setActiveButton(lang === 'en' ? 'en-lang' : 'ge-lang');
+}
+
+function setActiveButton(langId) {
+  document.getElementById('en-lang').classList.remove('active-lang');
+  document.getElementById('ge-lang').classList.remove('active-lang');
+  document.getElementById(langId).classList.add('active-lang');
+}
+
+// Set default language to English
+document.addEventListener('DOMContentLoaded', function () {
+  setLanguage('en');
+});
